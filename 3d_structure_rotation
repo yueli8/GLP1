@@ -1,0 +1,12 @@
+maestro
+copy smiles file
+paste view 3d
+
+
+pymol  旋转
+reinitialize
+cd /Users/yl/Documents/affinity/GLP1
+load GLP-1_nature.pdb
+mset 1 x120
+util.mroll(1,120,1)
+mplay
